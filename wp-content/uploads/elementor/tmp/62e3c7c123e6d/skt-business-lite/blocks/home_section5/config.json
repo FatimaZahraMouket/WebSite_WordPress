@@ -1,0 +1,459 @@
+{
+    "name": "Home Section 5",
+    "groups": "home-sections",
+    "template": "template.hbs",
+    "settings": [{
+        "name": "blockTitle",
+        "label": "Title",
+        "type": "text"
+    }, {
+		"name": "blockTitleColor",
+		"label": "Title Color",
+		"type": "colorpicker",
+		"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "blockTitleFontSize",
+        "label": "Title Font Size",
+        "type": "slider",
+    	"min": "0",
+    	"max": "150"
+    }, {
+        "name": "blockTitleMarginBottom",
+        "label": "Title Margin Bottom",
+        "type": "slider",
+    	"min": "0",
+    	"max": "200"
+    }, {
+        "name": "blockTitleSeparator",
+        "label": "Title Separator",
+        "type": "checkbox_switch"
+    }, {
+		"name": "blockTitleSeparatorColor",
+		"label": "Title Separator Color",
+		"type": "colorpicker",
+		"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "blockTitleAlign",
+        "label": "Title Alignment",
+        "type": "select",
+        "default": "left",
+        "options": [{"id": "left", "val": "Left"}, {"id": "center", "val": "Center"}, {"id": "right", "val": "Right"}, {"id": "justify", "val": "Justify"}]
+    }, {
+        "name": "blockDescription",
+        "label": "Description",
+        "type": "textarea"
+    }, {
+        "name": "blockTitle2",
+        "label": "Features Title",
+        "type": "text"
+    }, {
+		"name": "blockTitleColor2",
+		"label": "Features Title Color",
+		"type": "colorpicker",
+		"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "blockTitleAlign2",
+        "label": "Features Title Alignment",
+        "type": "select",
+        "default": "left",
+        "options": [{"id": "left", "val": "Left"}, {"id": "center", "val": "Center"}, {"id": "right", "val": "Right"}, {"id": "justify", "val": "Justify"}]
+    }, {
+        "name": "blockColumns",
+        "label": "Features",
+        "type": "accordion",
+        "settings": [{
+            "name": "columnDescription",
+            "label": "Description",
+            "type": "textarea"
+        }, {
+			"name": "columnDescriptionColor",
+			"label": "Description Color",
+			"type": "colorpicker",
+			"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		}, {
+            "name": "columnNumber",
+            "label": "Number",
+            "type": "text"
+        }, {
+			"name": "columnNumberColor",
+			"label": "Number Color",
+			"type": "colorpicker",
+			"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		}, {
+			"name": "columnNumberBgColor",
+			"label": "Number Background Color",
+			"type": "colorpicker",
+			"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+		}]
+    }, {
+		"name": "blockCircleBgColor",
+		"label": "Circle Background Color",
+		"type": "colorpicker",
+		"colors": ["#9cc914", "#ECB00E", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+		"name": "blockCircleShadowColor",
+		"label": "Circle Shadow Color",
+		"type": "colorpicker",
+		"colors": ["#9cc914", "#ECB00E", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+		"name": "featureCircleBgColor",
+		"label": "Feature Circle Background Color",
+		"type": "colorpicker",
+		"colors": ["#282828", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+		"name": "featureCircleHoverBgColor",
+		"label": "Feature Circle Hover/Active Background Color",
+		"type": "colorpicker",
+		"colors": ["#ECB00E", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+		"name": "featuretitleColor",
+		"label": "Feature Title Color",
+		"type": "colorpicker",
+		"colors": ["#282828", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+		"name": "featuredescColor",
+		"label": "Feature Description Color",
+		"type": "colorpicker",
+		"colors": ["#ffffff", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+		"name": "featurelinkColor",
+		"label": "Feature Link Color",
+		"type": "colorpicker",
+		"colors": ["#282828", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+		"name": "featurelinkHoverColor",
+		"label": "Feature Link Hover Color",
+		"type": "colorpicker",
+		"colors": ["#282828", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "featureIcon1",
+        "label": "Feature Icon Image 1",
+        "type": "image"
+    }, {
+        "name": "featureIcon2",
+        "label": "Feature Icon Image 2",
+        "type": "image"
+    }, {
+        "name": "featureIcon3",
+        "label": "Feature Icon Image 3",
+        "type": "image"
+    }, {
+        "name": "featureIcon4",
+        "label": "Feature Icon Image 4",
+        "type": "image"
+    }, {
+        "name": "featureIcon5",
+        "label": "Feature Icon Image 5",
+        "type": "image"
+    }, {
+        "name": "featureIcon6",
+        "label": "Feature Icon Image 6",
+        "type": "image"
+    }, {
+        "name": "featureIcon7",
+        "label": "Feature Icon Image 7",
+        "type": "image"
+    }, {
+        "name": "featureIcon8",
+        "label": "Feature Icon Image 8",
+        "type": "image"
+    }, {
+        "name": "featuretitle1",
+        "label": "Title 1",
+        "type": "text"
+    }, {
+        "name": "featuredesc1",
+        "label": "Description 1",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText1",
+        "label": "Button Text 1",
+        "type": "text"
+    }, {
+		"name": "featureLink1",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget1",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "featuretitle2",
+        "label": "Title 2",
+        "type": "text"
+    }, {
+        "name": "featuredesc2",
+        "label": "Description 2",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText2",
+        "label": "Button Text 2",
+        "type": "text"
+    }, {
+		"name": "featureLink2",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget2",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "featuretitle3",
+        "label": "Title 3",
+        "type": "text"
+    }, {
+        "name": "featuredesc3",
+        "label": "Description 3",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText3",
+        "label": "Button Text 3",
+        "type": "text"
+    }, {
+		"name": "featureLink3",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget3",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "featuretitle4",
+        "label": "Title 4",
+        "type": "text"
+    }, {
+        "name": "featuredesc4",
+        "label": "Description 4",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText4",
+        "label": "Button Text 4",
+        "type": "text"
+    }, {
+		"name": "featureLink4",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget4",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "featuretitle5",
+        "label": "Title 5",
+        "type": "text"
+    }, {
+        "name": "featuredesc5",
+        "label": "Description 5",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText5",
+        "label": "Button Text 5",
+        "type": "text"
+    }, {
+		"name": "featureLink5",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget5",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "featuretitle6",
+        "label": "Title 6",
+        "type": "text"
+    }, {
+        "name": "featuredesc6",
+        "label": "Description 6",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText6",
+        "label": "Button Text 6",
+        "type": "text"
+    }, {
+		"name": "featureLink6",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget6",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "featuretitle7",
+        "label": "Title 7",
+        "type": "text"
+    }, {
+        "name": "featuredesc7",
+        "label": "Description 7",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText7",
+        "label": "Button Text 7",
+        "type": "text"
+    }, {
+		"name": "featureLink7",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget7",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "featuretitle8",
+        "label": "Title 8",
+        "type": "text"
+    }, {
+        "name": "featuredesc8",
+        "label": "Description 8",
+        "type": "textarea"
+    }, {
+        "name": "featureLinkText8",
+        "label": "Button Text 8",
+        "type": "text"
+    }, {
+		"name": "featureLink8",
+		"label": "Button Link",
+		"type": "text"
+	}, {
+		"name": "featureLinkTarget8",
+		"label": "Open button link in new tab?",
+		"type": "checkbox_switch"
+	}, {
+        "name": "blockAnimation",
+        "label": "Enable Animation",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockAnimationEffect",
+        "label": "Animation Effect",
+        "type": "select",
+        "default": "slideInRight",
+        "options": [{"id": "fadeIn", "val": "fadeIn"}, {"id": "fadeInUp", "val": "fadeInUp"}, {"id": "fadeInDown", "val": "fadeInDown"}, {"id": "fadeInLeft", "val": "fadeInLeft"}, {"id": "fadeInRight", "val": "fadeInRight"}, {"id": "fadeInUpBig", "val": "fadeInUpBig"}, {"id": "fadeInDownBig", "val": "fadeInDownBig"}, {"id": "fadeInLeftBig", "val": "fadeInLeftBig"}, {"id": "fadeInRightBig", "val": "fadeInRightBig"}, {"id": "fadeOut", "val": "fadeOut"}, {"id": "fadeOutUp", "val": "fadeOutUp"}, {"id": "fadeOutDown", "val": "fadeOutDown"}, {"id": "fadeOutLeft", "val": "fadeOutLeft"}, {"id": "fadeOutRight", "val": "fadeOutRight"}, {"id": "fadeOutUpBig", "val": "fadeOutUpBig"}, {"id": "fadeOutDownBig", "val": "fadeOutDownBig"}, {"id": "fadeOutLeftBig", "val": "fadeOutLeftBig"}, {"id": "fadeOutRightBig", "val": "fadeOutRightBig"}, {"id": "zoomIn", "val": "zoomIn"}, {"id": "zoomInUp", "val": "zoomInUp"}, {"id": "zoomInDown", "val": "zoomInDown"}, {"id": "zoomInLeft", "val": "zoomInLeft"}, {"id": "zoomInRight", "val": "zoomInRight"}, {"id": "slideInUp", "val": "slideInUp"}, {"id": "slideInDown", "val": "slideInDown"}, {"id": "slideInLeft", "val": "slideInLeft"}, {"id": "slideInRight", "val": "slideInRight"}, {"id": "slideOutUp", "val": "slideOutUp"}, {"id": "slideOutDown", "val": "slideOutDown"}, {"id": "slideOutLeft", "val": "slideOutLeft"}, {"id": "slideOutRight", "val": "slideOutRight"}, {"id": "flip", "val": "flip"}, {"id": "flipInX", "val": "flipInX"}, {"id": "flipInY", "val": "flipInY"}, {"id": "flipOutX", "val": "flipOutX"}, {"id": "flipOutY", "val": "flipOutY"}, {"id": "rotateIn", "val": "rotateIn"}, {"id": "rotateInUpLeft", "val": "rotateInUpLeft"}, {"id": "rotateInUpRight", "val": "rotateInUpRight"}, {"id": "rotateInDownLeft", "val": "rotateInDownLeft"}, {"id": "rotateInDownRight", "val": "rotateInDownRight"}, {"id": "rotateOut", "val": "rotateOut"}, {"id": "rotateOutUpLeft", "val": "rotateOutUpLeft"}, {"id": "rotateOutUpRight", "val": "rotateOutUpRight"}, {"id": "rotateOutDownLeft","val": "rotateOutDownLeft"}, {"id": "rotateOutDownRight", "val": "rotateOutDownRight"}, {"id": "bounce", "val": "bounce"}, {"id": "bounceIn", "val": "bounceIn"}, {"id": "bounceInUp", "val": "bounceInUp"}, {"id": "bounceInDown", "val": "bounceInDown"}, {"id": "bounceInLeft", "val": "bounceInLeft"}, {"id": "bounceInRight", "val": "bounceInRight"}, {"id": "bounceOut", "val": "bounceOut"}, {"id": "bounceOutUp", "val": "bounceOutUp"}, {"id": "bounceOutDown", "val": "bounceOutDown"}, {"id": "bounceOutLeft", "val": "bounceOutLeft"}, {"id": "bounceOutRight", "val": "bounceOutRight"}, {"id": "rollIn", "val": "rollIn"}, {"id": "rollOut", "val": "rollOut"}, {"id": "lightSpeedIn", "val": "lightSpeedIn"}, {"id": "lightSpeedOut", "val": "lightSpeedOut"}, {"id": "flash", "val": "flash"}, {"id": "pulse", "val": "pulse"}, {"id": "shake", "val": "shake"}, {"id": "swing", "val": "swing"}, {"id": "tada", "val": "tada"}, {"id": "wobble", "val": "wobble"}]
+    }, {
+        "name": "blockPaddingTop",
+        "label": "Padding Top",
+        "type": "slider",
+    	"min": "0",
+    	"max": "300"
+    }, {
+        "name": "blockPaddingBottom",
+        "label": "Padding Bottom",
+        "type": "slider",
+    	"min": "0",
+    	"max": "300"
+    }, {
+    	"name": "blockBackgroundColor",
+    	"label": "Background Color",
+    	"type": "colorpicker",
+    	"colors": ["#886af8", "#89c421", "#5cb4f2", "#f58231", "#9A6324", "#800000"]
+	}, {
+        "name": "blockParallaxEffect",
+        "label": "Parallax Effect",
+        "type": "checkbox_switch"
+    }, {
+        "name": "blockBgImageUrl",
+        "label": "Background Image",
+        "type": "image"
+    }],
+
+    "defaults": {
+		"blockTitle": "Why Work With Us",
+		"blockTitleColor": "#282828",
+		"blockTitleFontSize": "38",
+		"blockTitleMarginBottom": "65",
+		"blockTitleSeparator": 1,
+		"blockTitleSeparatorColor": "#282828",
+		"blockTitleAlign": "center",
+        "blockDescription": "",
+		
+		"blockTitle2": "5 Main Reasons To Choose Us",
+		"blockTitleColor2": "#282828",
+		"blockTitleAlign2": "left",
+		"blockColumns": [{
+			"columnDescription": "<p>Because acting with lorm ipsum – integrity ipsum porta maximus, odio augue ullam rutrum velit sit tincidunt elit.</p>",
+			"columnDescriptionColor": "#4c4c4c",
+			"columnNumber": "1",
+			"columnNumberColor": "#ffffff",
+			"columnNumberBgColor": "#1f365c",
+			"order": 1
+        }, {
+			"columnDescription": "<p>Because acting with lorm ipsum – integrity ipsum porta maximus, odio augue ullam rutrum velit sit tincidunt elit.</p>",
+			"columnDescriptionColor": "#4c4c4c",
+			"columnNumber": "2",
+			"columnNumberColor": "#ffffff",
+			"columnNumberBgColor": "#1f365c",
+			"order": 2
+        }, {
+			"columnDescription": "<p>Because acting with lorm ipsum – integrity ipsum porta maximus, odio augue ullam rutrum velit sit tincidunt elit.</p>",
+			"columnDescriptionColor": "#4c4c4c",
+			"columnNumber": "3",
+			"columnNumberColor": "#ffffff",
+			"columnNumberBgColor": "#1f365c",
+			"order": 3
+        }, {
+			"columnDescription": "<p>Because acting with lorm ipsum – integrity ipsum porta maximus, odio augue ullam rutrum velit sit tincidunt elit.</p>",
+			"columnDescriptionColor": "#4c4c4c",
+			"columnNumber": "4",
+			"columnNumberColor": "#ffffff",
+			"columnNumberBgColor": "#1f365c",
+			"order": 4
+        }, {
+			"columnDescription": "<p>Because acting with lorm ipsum – integrity ipsum porta maximus, odio augue ullam rutrum velit sit tincidunt elit.</p>",
+			"columnDescriptionColor": "#4c4c4c",
+			"columnNumber": "5",
+			"columnNumberColor": "#ffffff",
+			"columnNumberBgColor": "#1f365c",
+			"order": 5
+        }],
+		
+		"blockCircleBgColor": "#ffffff",
+		"blockCircleShadowColor": "#eaeaea",
+		"featureCircleBgColor": "#1f365c",
+		"featureCircleHoverBgColor": "#33cf9f",
+		
+		"featureIcon1": "%block_url%/assets/img/icon1.png",
+		"featureIcon2": "%block_url%/assets/img/icon2.png",
+		"featureIcon3": "%block_url%/assets/img/icon3.png",
+		"featureIcon4": "%block_url%/assets/img/icon4.png",
+		"featureIcon5": "%block_url%/assets/img/icon5.png",
+		
+		"featuretitleColor": "#282828",
+		"featuredescColor": "#4c4c4c",
+		"featurelinkColor": "#1f365c",
+		"featurelinkHoverColor": "#33cf9f",
+		
+		"featuretitle1" : "Industry Experience",
+		"featuredesc1" : "<p>Nulla quis congue quam. I condiment mauris, a gravida tellus ornare . Alieu magna non enim sodales.</p>",
+		"featuretitle2" : "Personal Experience",
+		"featuredesc2" : "<p>Nulla quis congue quam. I condiment mauris, a gravida tellus ornare . Alieu magna non enim sodales.</p>",
+		"featuretitle3" : "Bright Future",
+		"featuredesc3" : "<p>Nulla quis congue quam. I condiment mauris, a gravida tellus ornare . Alieu magna non enim sodales.</p>",
+		"featuretitle4" : "Glowing Features",
+		"featuredesc4" : "<p>Nulla quis congue quam. I condiment mauris, a gravida tellus ornare . Alieu magna non enim sodales.</p>",
+		"featuretitle5" : "Certified Industry",
+		"featuredesc5" : "<p>Nulla quis congue quam. I condiment mauris, a gravida tellus ornare . Alieu magna non enim sodales.</p>",
+		
+		"featureLinkText1" : "LEARN MORE",
+		"featureLinkText2" : "LEARN MORE",
+		"featureLinkText3" : "LEARN MORE",
+		"featureLinkText4" : "LEARN MORE",
+		"featureLinkText5" : "LEARN MORE",
+		
+		"featureLink1": "#",
+		"featureLinkTarget1": 0,
+		"featureLink2": "#",
+		"featureLinkTarget2": 0,
+		"featureLink3": "#",
+		"featureLinkTarget3": 0,
+		"featureLink4": "#",
+		"featureLinkTarget4": 0,
+		"featureLink5": "#",	
+		"featureLinkTarget5": 0,
+		
+		"blockAnimation" : 0,
+		"blockAnimationEffect" : "slideInUp",
+		"blockPaddingTop" : "100",
+		"blockPaddingBottom" : "70",
+		"blockBackgroundColor": "#fafafa",
+		"blockParallaxEffect" : 0,
+		"blockBgImageUrl": ""
+    }
+}
